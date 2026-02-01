@@ -1,0 +1,15 @@
+Request Headers
+    User-Agent: PostmanRuntime/7.51.0 #### This header displays information about what software, OS, and version of the client we are using to make the request. Basically information about what system and software is sending the request
+    Postman-Token: 1520eb95-3b67-4fb6-9ae7-0759d9a529c8 #### Its a randomly generated token id that is meant to uniquely identify each request. 
+    Host: openlibrary.org #### This is where the API request went to or from where you requested from
+    Accept-Encoding: gzip, deflate, br #### Its shows the information about how the host or server is compressing and packaging your data to be sent
+    Connection: keep-alive #### The protocol that is being used between the two systems. Either to keep the handshake alive or to close it after handshake
+Response Headers
+    Server: nginx/1.28.1  #### This is the receiving server that responds back to you, same info as User-Agent 
+    Date: Sun, 01 Feb 2026 20:41:39 GMT #### The time you received back the Response
+    Content-Type: application/json #### It tells the requester which format the response is coming back in, and how to read it
+    Transfer-Encoding: chunked #### How the data was sent, chunk by chunk
+    Connection: keep-alive #### Same as in the request header
+    x-served-by: FastAPI #### X indicates that its a custom header, and specifically this one, it tells you what service processed your request
+    Referrer-Policy: no-referrer-when-downgrade #### This header handles privacy, about how to share the data
+    Content-Encoding: gzip #### Same protocol that handles data size and compression
